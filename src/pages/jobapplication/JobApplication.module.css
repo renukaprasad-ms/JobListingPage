@@ -1,0 +1,128 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.jobDetails {
+  padding: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.jobDetails h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.jobDetails h3 {
+  font-size: 20px;
+  color: #555;
+}
+
+.location {
+  font-weight: bold;
+  color: #0073b1;
+}
+
+.description {
+  color: #666;
+  margin-top: 10px;
+}
+
+.applySection {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.applySection h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.formGroup label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.applyButton {
+  background: #0073b1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.applyButton:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.applyButton:hover {
+  background: #005580;
+}
+
+.cancelButton {
+  background: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cancelButton:hover {
+  background: #d63c3c;
+}
+
+.companyInfo {
+  margin-top: 30px;
+  padding: 20px;
+  background: #eef7ff;
+  border-radius: 8px;
+}
+
+.companyInfo h3 {
+  color: #0073b1;
+}
+
+.similarJobs {
+  margin-top: 30px;
+}
+
+.similarJobItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+}
