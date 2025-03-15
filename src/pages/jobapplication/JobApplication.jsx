@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchJobById } from "../../store/jobSlice";
 import styles from "./JobApplication.module.css";
 import { useParams, useNavigate } from "react-router-dom";
+import Loader from "../../components/loader/Loader"
+import NotFound from "../../components/error/NotFound"
 
 const JobApplication = () => {
   const { id } = useParams(); // Get the job ID from the URL parameters
@@ -56,10 +58,10 @@ const JobApplication = () => {
   };
 
   // Display loading message if job details are being fetched
-  if (loading) return <p>Loading job details...</p>;
+  if (loading) return <Loader/>;
 
   // Display error message if there was an issue fetching job details
-  if (error) return <p>Error loading job details.</p>;
+  if (error) return <NotFound/>;
 
   // Display a message if no job details are found
   if (!jobDetails) return <p>No job found.</p>;
