@@ -20,7 +20,7 @@ This project is a **Job Listing Page** built using **React.js, Vite, and JavaScr
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/renukaprasad-ms/JobListingPage.git
+   git clone https://github.com/renukaprasadms/job-listing-page.git
    cd job-listing-page
    ```
 2. Install dependencies:
@@ -33,10 +33,15 @@ This project is a **Job Listing Page** built using **React.js, Vite, and JavaScr
    ```
 4. Open **http://localhost:5173/** in your browser.
 
+## Deployment
+This project is deployed on Vercel:
+🔗 **Live Demo:** [Job Listing Page](https://job-listing-page-virid.vercel.app/)
+
 ## Usage
 - Browse the job listings on the homepage.
 - Use pagination to navigate through jobs.
 - Click on a job posting for more details.
+
 
 ## Contributing
 Pull requests are welcome! Please ensure that changes align with the project's objectives.
