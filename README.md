@@ -20,7 +20,7 @@ This project is a **Job Listing Page** built using **React.js, Vite, and JavaScr
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/renukaprasadms/job-listing-page.git
+   git clone https://github.com/renukaprasad-ms/JobListingPage.git
    cd job-listing-page
    ```
 2. Install dependencies:
